@@ -1,6 +1,7 @@
 name: PRs to Dev
 
 on:
+  push:
   pull_request:
     branches: [development]
 
