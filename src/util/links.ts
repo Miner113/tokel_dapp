@@ -1,12 +1,12 @@
 export default {
   explorers: {
     KMD: () => 'https://kmd.explorer.dexstats.info',
-    GRMS: path => `https://explorer.grms.pw/${path}`,
+    NFTX: path => `https://explorer.nftx.pw/${path}`,
     TKLTEST: path => `http://explorer.komodoplatform.com:20000/${path}/TKLTEST`,
     TKLTEST2: path => `http://explorer.komodoplatform.com:20000/${path}/TKLTEST2`,
   },
   insightApi: {
-    GRMS: 'https://explorer.grms.pw/insight-api-komodo',
+    NFTX: 'https://explorer.nftx.pw/insight-api-komodo',
     KMD: 'https://kmd.explorer.dexstats.info/insight-api-komodo',
     TKLTEST: 'https://explorer.komodoplatform.com:10000/tkltest/api/',
   },
