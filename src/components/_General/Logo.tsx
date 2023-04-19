@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from '@emotion/styled';
 
-import logoPath from 'assets/logo.svg';
+import logoPath from 'assets/logo.png';
 
 const StyledLogo = styled.img`
   height: 50px;
