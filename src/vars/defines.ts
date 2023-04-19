@@ -4,8 +4,8 @@
 import { CipherGCMTypes } from 'crypto';
 
 // export const RPC_PORT = '22025';
-export const TICKER = 'GRMS';
-export const RPC_PORT = '16472';
+export const TICKER = 'NFTX';
+export const RPC_PORT = '53958';
 export const BITGO_IPC_ID = 'bitgo';
 export const IPFS_IPC_ID = 'ipfs';
 export const DEEP_LINK_IPC_ID = 'link';
@@ -48,7 +48,7 @@ export const SATOSHIS = 100000000;
 export const TOKEN_WHITE_LIST_LOCATION = 'token_white_list';
 
 export enum NetworkType {
-  TOKEL = 'GRMS',
+  TOKEL = 'NFTX',
   TKLTEST = 'TKLTEST2',
 }
 
@@ -70,7 +70,7 @@ export const TokenFilter = {
 };
 
 export enum ResourceType {
-  TOKEL = 'grms',
+  TOKEL = 'nftx',
   NFT = 'nft',
   FST = 'tokens',
 }
@@ -150,7 +150,7 @@ export const ErrorMessages = {
 
 export const NspvJSErrorMessages = {
   'invalid destination pubkey': 'Invalid token address (pubkey). Please try again.',
-  'could not find normal inputs': 'Not enough TKL for this transaction',
+  'could not find normal inputs': 'Not enough NFTX for this transaction',
 };
 
 export const HTTP_ERR_405 = 'Request failed with status code 405';
@@ -168,8 +168,8 @@ export const SPENDABLE = 'Spendable';
 export const LOCKED = 'Locked';
 
 export const DisclaimerTextContent = {
-  par1: `The GRMS team does not own, endorse, host or content moderate anything that is shown in the dApp. By it's nature, the dApp merely reads the media URL's
-  that are linked within the meta data of tokens that are created on the GRMS public
+  par1: `The NFTX team does not own, endorse, host or content moderate anything that is shown in the dApp. By it's nature, the dApp merely reads the media URL's
+  that are linked within the meta data of tokens that are created on the NFTX public
   blockchain. Content moderation issues should be addressed with the token creator,
   owner, or through the web host that stores the media itself.`,
   par2: `By accepting this disclaimer, you are accepting that you have personally verified the source of the image and are happy for it to be displayed, knowing that there are no content moderators and you're taking all responsibility for viewing the media and any risks associated with that. You are accepting that anybody that participates in creating and/or shipping this open source software holds no liability for what is shown, and that the decision to proceed is completely voluntary and at your own risk.`,
