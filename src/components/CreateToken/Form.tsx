@@ -212,7 +212,7 @@ const CreateTokenForm: React.FC<CreateTokenFormProps> = ({ tokenType }) => {
               type="number"
               label="Royalty (optional)"
               placeholder="0"
-              help={`Anytime this ${tokenTypeDisplay} is sold through the Tokel DEX, you can make a commission, even if you're not participating in the sale. Can range from 1% to 99.9%`}
+              help={`Anytime this ${tokenTypeDisplay} is sold through the NFTX DEX, you can make a commission, even if you're not participating in the sale. Can range from 1% to 99.9%`}
               append="%"
             />
 
@@ -237,7 +237,7 @@ const CreateTokenForm: React.FC<CreateTokenFormProps> = ({ tokenType }) => {
                   name="arbitraryAsJson[collection_name]"
                   label="Collection (optional)"
                   placeholder="Type to select a collection or create a new one..."
-                  help="Collection is the term used for an NFT collection on the Tokel Platform. A group of NFTs is called a Collection."
+                  help="Collection is the term used for an NFT collection on the NFTX Platform. A group of NFTs is called a Collection."
                   options={Object.values(myCollections)}
                   formattedSelectedOption={formattedSelectedCollectionOption}
                   creatable
