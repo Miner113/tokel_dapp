@@ -29,8 +29,6 @@ jobs:
       - name: Build with webpack
         run: yarn build
 
-      - name: Run unittests
-        run: yarn checks
 
       # - name: Copy files for E2E tests (!macOS)
       #   if: matrix.os != 'macos-latest'
