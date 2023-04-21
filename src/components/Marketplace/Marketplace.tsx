@@ -126,7 +126,7 @@ const Marketplace: React.FC = () => {
             `}
           >
             <Icon icon={trendUpIcon} height={40} color="frontSoft" centered />
-            <Title>Welcome to to the Tokel Token & NFT market</Title>
+            <Title>Welcome to to the NFTX Token & NFT market</Title>
             <SubTitle>Select an option on the side menu to begin</SubTitle>
           </WelcomeMessageWrapper>
         );
