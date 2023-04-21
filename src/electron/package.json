@@ -1,12 +1,12 @@
 {
-  "name": "tokel_app",
-  "productName": "tokelPlatform",
-  "version": "1.4.0",
+  "name": "nftx_app",
+  "productName": "nftxPlatform",
+  "version": "1.0.0",
   "description": "Komodo ecosystem’s Token Platform",
   "main": "./main.js",
   "author": {
-    "name": "Tokel",
-    "url": "https://tokel.io"
+    "name": "NFTX",
+    "url": "https://nftx.pw"
   },
   "scripts": {
     "electron-rebuild": "node -r ../../config/scripts/BabelRegister.js ../../config/scripts/ElectronRebuild.js",
