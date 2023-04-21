@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from '@emotion/styled';
 
-import tokelIcon from 'assets/logo.svg';
+import tokelIcon from 'assets/logo.png';
 import { V } from 'util/theming';
 import { PORTFOLIO_ITEM_HEIGHT_PX } from 'vars/defines';
 
