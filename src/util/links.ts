@@ -10,7 +10,7 @@ export default {
     KMD: 'https://kmd.explorer.dexstats.info/insight-api-komodo',
     TKLTEST: 'https://explorer.komodoplatform.com:10000/tkltest/api/',
   },
-  discord: 'https://discord.gg/MHxJZVFkqa',
+  discord: 'https://discord.gg/nxNY6mkPpa',
   website: 'https://nftx.pw',
   websiteRoadmap: 'https://nftx.pw',
   githubIssue:
