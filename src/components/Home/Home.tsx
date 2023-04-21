@@ -54,7 +54,7 @@ const renderView = (viewType: ViewType[keyof ViewType]) => {
     case ViewType.DASHBOARD:
       return <Dashboard />;
     case ViewType.SWAP:
-      return getNote('Swapping Tokel');
+      return getNote('Swapping NFTX');
     case ViewType.DEX:
       return <Marketplace />;
     case ViewType.CREATE_TOKEN:
