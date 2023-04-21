@@ -130,7 +130,7 @@ const Login = () => {
             <Logo />
             {!loginType ? (
               <>
-                <HeaderTitle>Welcome to Tokel</HeaderTitle>
+                <HeaderTitle>Welcome to NFTX</HeaderTitle>
                 <WelcomeMessage>The Future of tokenization</WelcomeMessage>
                 <LoginOptionContainer>
                   {Object.values(LoginViews).map(view => (
