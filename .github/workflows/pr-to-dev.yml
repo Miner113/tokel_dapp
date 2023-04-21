@@ -58,4 +58,4 @@ jobs:
       - name: 'Upload apps to artifact store'
         uses: kittaakos/upload-artifact-as-is@v0
         with:
-          path: release/TokelPlatform*
+          path: release/NFTXPlatform*
